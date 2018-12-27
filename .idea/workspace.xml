@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0977aaa-3eb4-4d63-97a5-2395a06c0309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stuff.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/motraining/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/dev/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/packages/test/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/motraining/symfony.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +29,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mohammed el Haddouchi &lt;43568049+mohammed-nep-group@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="40" />
@@ -56,6 +85,26 @@
               <item name="stuff" type="b2602c69:ProjectViewProjectNode" />
               <item name="stuff" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -66,6 +115,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,23 +143,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545942945058</updated>
-      <workItem from="1545942946277" duration="313000" />
+      <workItem from="1545942946277" duration="948000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit of project">
+      <created>1545943282917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545943282917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="313000" />
+    <option name="totallyTimeSpent" value="948000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="37" width="1577" height="902" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -113,7 +185,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962963" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -122,5 +194,29 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit of project" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
