@@ -1,0 +1,16 @@
+{
+  "require": {
+    "doctrine/orm": "^2.6",
+    "doctrine/dbal": "^2.9",
+    "symfony/flex": "^1.1",
+    "symfony/orm-pack": "^1.0",
+    "symfony/maker-bundle": "^1.11",
+    "symfony/dotenv": "^4.2"
+  },
+  "scripts": {
+    "auto-scripts": {
+      "cache:clear": "symfony-cmd",
+      "assets:install %PUBLIC_DIR%": "symfony-cmd"
+    }
+  }
+}
