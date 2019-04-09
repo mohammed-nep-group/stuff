@@ -1,31 +1,38 @@
 parameters:
-  # Adds a fallback DATABASE_URL if the env var is not set.
-  # This allows you to run cache:warmup even if your
-  # environment variables are not available yet.
-  # You should not need to change this value.
-  env(DATABASE_URL): ''
+# Adds a fallback DATABASE_URL if the env var is not set.
+# This allows you to run cache:warmup even if your
+# environment variables are not available yet.
+# You should not need to change this value.
+#env(DATABASE_URL): ''
 
 doctrine:
   dbal:
     # configure these for your database server
-    driver: 'pdo_mysql'   #welke database server
+    driver: 'pdo_mysql'
     server_version: '5.7'
     charset: utf8mb4
-    default_table_options:
-      charset: utf8mb4
-      collate: utf8mb4_unicode_ci
 
-    url: '%env(resolve:DATABASE_URL)%'  #db url waar het connect. in env variable zit de DB URL
+    # With Symfony 3.3, remove the `resolve:` prefix
+    url: '%env(resolve:DATABASE_URL)%'
+    schema_filter: ~^(?!sessions)~
   orm:
-    auto_generate_proxy_classes: true
+    # Auto generated if debug is true, otheriwse
+    # php app/console cache:warmup --env=prod --no-debug
+    auto_generate_proxy_classes: '%kernel.debug%'
+    # Rules for generating table names, field names
+    # By default it's the_table_name
     naming_strategy: doctrine.orm.naming_strategy.underscore
+    # Automatically look for mapping configuration
     auto_mapping: true
     mappings:
+      # Entity mapping for App namespace
       App:
         is_bundle: false
+        # Is of type annotation (could also be XML, YAML)
         type: annotation
-        #the antitys are here.
+        # Entities could be found in directory
         dir: '%kernel.project_dir%/src/Entity'
-        #dit is een namespace die we hebben.
+        # Entity namespace prefix is
         prefix: 'App\Entity'
+        # Shorthand alias is App, eg. App:Post, App:User
         alias: App
